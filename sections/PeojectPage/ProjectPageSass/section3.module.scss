@@ -1,0 +1,73 @@
+.flexContainer {
+  width: 100%;
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("/images/rightimg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  align-items: center;
+}
+
+.flexContainer:first-child {
+  margin-right: 25px;
+}
+
+.firstChild,
+.secondChild {
+  flex: 1;
+}
+.img {
+  position: absolute;
+}
+
+.firstChild {
+  width: 100%;
+  padding: 8rem;
+  text-align: center;
+}
+
+.charts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 960px) {
+  .flexContainer {
+    display: flex;
+    padding: 10px 15px;
+    background-position: right;
+  }
+
+  .charts {
+    display: flex;
+    flex-direction: column;
+  }
+  .line {
+    display: initial;
+  }
+  .firstChild {
+    margin: 1rem;
+    padding: 0rem;
+  }
+
+  .description {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+    padding-top: 0rem;
+  }
+  .lineChart {
+    width: 295px;
+    height: 350px;
+    position: relative;
+    top: 1rem;
+  }
+
+  .drawLine {
+    font-size: 40px;
+    padding: 2px 0px;
+  }
+}

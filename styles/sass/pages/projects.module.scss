@@ -1,0 +1,177 @@
+.headContainer {
+  display: flex;
+  justify-content: center;
+  background-size: 390px;
+  height: 100vh;
+  padding: 2rem;
+  padding-top: 0;
+  margin-left: 0rem;
+}
+.container {
+  padding-left: 1rem;
+  margin: auto;
+  text-align: center;
+}
+.img {
+  position: absolute;
+  bottom: 20rem;
+  right: 1rem;
+}
+.span1,
+.span2 {
+  font-weight: 500;
+  font-size: 100px;
+  font-family: "Roboto" sans-serif;
+}
+
+.span1 {
+  color: #2db46a;
+}
+
+.title {
+  display: flex;
+  flex: 1;
+  margin-right: 0;
+}
+.h {
+  padding: 10rem;
+  margin-top: 1rem;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  margin-top: 0rem;
+  margin-bottom: -5rem;
+  margin-right: 2rem;
+  font-size: 20px;
+  font-family: "Roboto" sans-serif;
+  justify-content: center;
+  align-items: flex-end;
+}
+.p {
+  width: 60%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.scroller {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 7.2rem;
+  right: 1rem;
+}
+@media (max-width: 1281px) {
+  .span1,
+  .span2 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 1600px) {
+  .p {
+    width: 100%;
+  }
+  .content {
+    margin-right: 0;
+    justify-content: end;
+  }
+}
+@media (max-width: 1034px) {
+  .span1,
+  .span2 {
+    font-size: 80px;
+  }
+  .headContainer {
+    margin-left: 4rem;
+  }
+  .h {
+    padding: 0;
+  }
+  .content {
+    padding: 0rem;
+    margin-top: 14rem;
+    margin-right: -10rem;
+  }
+  .scroller {
+    right: -5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .headContainer {
+    padding-top: 4rem;
+    margin-left: 0;
+  }
+  .scroller {
+    display: none;
+  }
+  .title,
+  .content {
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-right: 0rem;
+  }
+  .img {
+    width: 400px;
+    bottom: 15rem;
+  }
+  .h {
+    padding: 0;
+  }
+  .span1,
+  .span2 {
+    font-size: 50px;
+    margin-top: 1rem;
+  }
+  .container {
+    margin-top: 6rem;
+  }
+
+  .content {
+    margin-top: 3rem;
+    margin-right: 0;
+  }
+  .p {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .AllProjects {
+    margin: auto;
+    width: min-content;
+  }
+}
+
+@media (max-width: 365px) {
+  .span1,
+  .span2 {
+    font-size: 48px;
+  }
+  .h {
+    padding-top: 0rem;
+    margin-top: 0;
+  }
+  .content {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .span1,
+  .span2 {
+    font-size: 40px;
+  }
+  .p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 280px) {
+  .headContainer {
+    padding-top: 2rem;
+  }
+  .h {
+    margin-right: -2rem;
+  }
+}

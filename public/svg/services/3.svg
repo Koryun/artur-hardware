@@ -1,0 +1,58 @@
+  <svg
+             
+              xmlns="http://www.w3.org/2000/svg"
+              width="257"
+              height="281"
+              viewBox="0 0 257 281"
+            >
+              <g
+                id="Group_215"
+                data-name="Group 215"
+                transform="translate(-831 -488)"
+              >
+                <text
+                  id="To_measure_actual_labor_and_materials."
+                  data-name="To measure actual labor and materials."
+                  transform="translate(831 696)"
+                  fill="#fff"
+                  font-size="24"
+                  font-family="Roboto"
+                >
+                  <tspan x="0" y="25">
+                    Designing stage
+                  </tspan>
+                </text>
+                <g id="Group_210" data-name="Group 210">
+                  <g
+                    id="Rectangle_660"
+                    data-name="Rectangle 660"
+                    transform="translate(831 488)"
+                    fill="none"
+                    stroke="#28ab5f"
+                    stroke-width="3"
+                  >
+                    <rect width="135" height="135" stroke="none" />
+                    <rect
+                      x="1.5"
+                      y="1.5"
+                      width="132"
+                      height="132"
+                      fill="none"
+                    />
+                  </g>
+                  <text
+                    id="_03"
+                    data-name="03"
+                    transform="translate(858 493)"
+                    fill="#fff"
+                    font-size="150"
+                    font-family="Roboto"
+                    font-weight="500"
+                  >
+                    <tspan x="0" y="157">
+                      03
+                    </tspan>
+                  </text>
+                </g>
+              </g>
+            </svg>

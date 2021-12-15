@@ -1,0 +1,126 @@
+.container {
+  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/powerdesign.jpg");
+  opacity: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  position: relative;
+  right: 0px;
+}
+
+.content {
+  font-family: "Roboto regular";
+  font-size: 18px;
+  padding-top: 1rem;
+  padding-left: 7rem;
+  position: relative;
+  right: 9.5rem;
+  line-height: 2rem;
+}
+.title {
+  font-size: 100px;
+  font-weight: 800;
+  margin-right: 11rem;
+  margin-top: -11rem;
+  line-height: 11rem;
+}
+.span1 {
+  font-family: "Roboto medium";
+  color: #2db46a;
+}
+
+.span2 {
+  font-family: "Roboto regular";
+  mix-blend-mode: hard-light;
+  opacity: 35%;
+  text-transform: uppercase;
+  font-size: 200px;
+}
+
+.li {
+  list-style: none;
+}
+@media (max-width: 1281px) {
+  .container {
+    min-width: max-content;
+  }
+
+  .title {
+    line-height: 13rem;
+    left: 0rem;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin-right: -4rem;
+  }
+
+  .content {
+    width: 75%;
+    padding-top: 18rem;
+    padding-left: 0rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    justify-content: flex-start;
+    min-width: max-content;
+  }
+  .span1,
+  .span2 {
+    font-size: 45px;
+  }
+
+  .title {
+    line-height: 0.5rem;
+    margin-top: -8rem;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    right: -2px;
+    width: auto;
+    margin-right: -2.6rem;
+  }
+
+  .content {
+    font-size: 16px;
+    padding-top: 0rem;
+    padding-left: 0;
+    position: relative;
+    right: -0.2rem;
+    width: 65%;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    height: 120vh;
+  }
+}

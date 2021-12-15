@@ -1,0 +1,17 @@
+[
+  "System integration, architecture development, design optimization, and RTL ",
+  "coding in VHDL, Verilog and System Verilog  ",
+  "Feasibility studies for cutting-edge applications  ",
+  "Mining (Cryptocurrencies) device architectural design ",
+  "Embedded software development for SoCs with soft and hard IP cores,",
+  "DSP processing and algorithm development in FPGAs",
+  " Integration; connecting, modifying, and debugging third-party IP,",
+  "such as video encoders/decoders and standard communication interfaces ",
+  "High-speed communication protocols and interfaces, e.g. PCIe Gen 1/2/3, GbE,",
+  "Fibre Channel, HDMI, SATA, XAUI, RapidIO, InfiniBand, SerialLite, HD-SDI)",
+  "System testing and verification, including test bench development, RTL",
+  "verification, post-synthesis simulation, and signal integrity analysis.",
+  "DSP algorithm development and digital signal processing in FPGAs ",
+  "High definition (including 4K) image and video processing pipelines",
+  "High-speed memory interface designs, including DDR2, DDR3, QDR II, RLDRAM, DDR4"
+]

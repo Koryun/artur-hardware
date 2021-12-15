@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto", sans-serif !important;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #0d0d0d;
+}
+
+.carousel,
+.thumb {
+  border: none !important;
+}
+
+.thumb {
+  width: 100px !important;
+}

@@ -1,0 +1,108 @@
+.card {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.p {
+  font-family: "Roboto regular";
+  width: 30%;
+  font-size: 18px;
+  // margin-left: 12rem;
+  // padding-bottom: 9rem;
+}
+.cat {
+  padding-top: 1rem;
+  padding-left: 0rem;
+  font-family: "Roboto regular";
+
+  // margin-bottom: 15rem;
+}
+.category {
+  color: #2db46a;
+  cursor: pointer;
+}
+.h {
+  padding: 11rem 12rem 1rem;
+  font-family: "Roboto black";
+  color: #2db46a;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.par,
+.carouselComp {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.secondChild {
+  margin-left: 12rem;
+  padding-bottom: 13rem;
+}
+//start
+@media (max-width: 1024px) {
+  .secondChild {
+    margin-left: 2rem;
+  }
+}
+
+//end
+
+@media (max-width: 960px) {
+  .card {
+    height: 125vh;
+    flex-flow: row wrap;
+
+    //
+    // margin: 5rem;
+    // padding: 4rem;
+    margin-top: 6rem;
+    flex-direction: row;
+  }
+  .h {
+    font-size: 30px;
+    padding: 3rem 1rem 2rem;
+  }
+  .par {
+    width: 100%;
+  }
+  .cat {
+    padding-left: 2rem;
+  }
+  .carouselComp {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .p {
+    width: 80%;
+    font-size: 16px;
+    margin-left: 2rem;
+    // padding-bottom: 4rem;
+  }
+
+  .secondChild {
+    margin-top: 18rem;
+    margin-left: 0rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (max-height: 667px) and (max-width: 375px) {
+  .card {
+    height: 170vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .card {
+    height: 170vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .card {
+    height: 200vh;
+  }
+}

@@ -1,0 +1,35 @@
+[
+  "Multi-layer digital PCB (HDMI, SATA, PCI Express 3 and others)",
+
+  "High-frequency RF PCB",
+
+  "High-speed serial 1GHz to 10GHz circuits",
+
+  "High-speed parallel circuits (DDR2/DDR3/ DDR4 /QDR) memory interfaces",
+
+  "Mixed-signal boards with power / noise isolation",
+
+  "PCB design with GOST, IPC, IEEE standards",
+
+  "High pin-count / High-density / Blind-buried vias design",
+
+  "Rigid-flex PCB design",
+
+  "Low-level analog PCB",
+
+  "Test fixture PCB",
+
+  "Pre/post-layout analysis with verification",
+
+  "Impedance-controlled / transducer-interfacing / sensitive signal designs",
+
+  "High-voltage and High-power PCB design",
+
+  "RoHS/WEEE compliant lead-free designs",
+
+  "DFx for volume production",
+
+  "DFT (ICT coverage, HALT, HASS, JTAG test vector development, HASS)",
+
+  "End-of-Life and cost-reduction redesign"
+]

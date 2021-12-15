@@ -1,0 +1,230 @@
+//desktop
+.home {
+  position: relative;
+  z-index: 0;
+}
+.verticalLine {
+  border-left: 1px solid #fff;
+  position: absolute;
+  left: 15%;
+  margin: 0;
+  padding: 0;
+  height: 4800px;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 2rem;
+}
+.video {
+  width: 100%;
+}
+.container {
+  position: relative;
+  z-index: 0;
+  padding-left: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.VideoWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.wrapper {
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.wrap2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top: 15rem;
+  right: 4rem;
+}
+
+.overlay {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 98vw;
+  z-index: 1;
+  background: rgba(0, 0, 1, 0.144);
+  opacity: 0.85;
+}
+
+.headerContent {
+  z-index: 2;
+}
+
+
+.span2, .span1 {
+  line-height: 5rem;
+  display: flex;
+  position: relative;
+  top: 10rem;
+  font-size: 150px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2db46a;
+}
+
+.h {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.p {
+  font-size: 20px;
+  font-family: "Roboto regular" sans-serif;
+  text-align: left;
+  padding-left: 4rem;
+}
+
+.scroll {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 3rem;
+  top: -7rem;
+}
+
+//laptop , 125%
+@media (max-width: 1600px) {
+  .span2 {
+    font-size: 100px;
+  }
+  .white {
+    width: 605px;
+  }
+  .wrap2 {
+    top: 12rem;
+    right: 0rem;
+  }
+  .h {
+    padding: 0rem;
+  }
+  .p {
+    padding-left: 4rem;
+  }
+  .verticalLine {
+    height: 3800px;
+  }
+  .video {
+    width: auto;
+  }
+}
+
+@media (max-width: 998px) {
+  .headerContent {
+    padding: 0rem;
+    margin-top: 11rem;
+  }
+  .container {
+    display: flex;
+    padding-top: 15px;
+  }
+  .overlay {
+    width: auto;
+  }
+
+  .span1,
+  .span2 {
+    font-size: 40px;
+    line-height: 1px;
+  }
+
+  .white {
+    width: 330px;
+    height: 59px;
+  }
+  .video {
+    width: auto;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .span1 {
+    position: relative;
+    top: 35px;
+  }
+
+  .p {
+    width: auto;
+    padding-left: 0;
+    font-size: 15px;
+    position: inherit;
+    bottom: 0;
+    width: 95%;
+    line-height: 1.3rem;
+  }
+
+  .h {
+    width: max-content;
+    position: relative;
+    bottom: 0;
+    padding: 0;
+  }
+  .wrap2 {
+    top: 3rem;
+    right: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    left: -1rem;
+  }
+
+  .span2 {
+    position: relative;
+    top: 5px;
+  }
+  .verticalLine {
+    height: 4000px;
+    left: 7%;
+  }
+}
+
+//iphone 6/7/8
+@media (max-height: 667px) and (max-width: 375px) {
+  .scroll {
+    top: -4rem;
+  }
+  .verticalLine {
+    height: 3500px;
+  }
+}
+
+@media (max-width: 360px) {
+  .verticalLine {
+    height: 3250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrap2 {
+    top: 2rem;
+  }
+  .wrapper {
+    padding-bottom: 7rem;
+  }
+  .VideoWrap {
+    width: 60vh;
+  }
+}

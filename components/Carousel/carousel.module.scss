@@ -1,0 +1,19 @@
+.wrapper {
+  background-color: black;
+  width: 940px;
+  height: 500px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    width: 350px;
+    height: 150px;
+  }
+}

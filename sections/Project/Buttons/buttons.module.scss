@@ -1,0 +1,80 @@
+.buttons {
+  border: 2px solid black;
+  background-color: #0d0d0d;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 162px;
+  font-family: "Roboto medium";
+  border-color: #fff;
+}
+.buttons:nth-child(1) {
+  width: 201px;
+  height: 59px;
+}
+.buttons:nth-child(2) {
+  width: 143px;
+}
+.buttons:nth-child(4) {
+  width: 181px;
+}
+.buttons:hover {
+  background-color: #04aa6d;
+}
+
+.buttons.active {
+  background-color: #04aa6d;
+  border-color: #04aa6d;
+}
+
+.btncontainer {
+  flex-direction: row;
+  margin: 1.5rem;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons:not(:last-child) {
+  margin-right: 1rem;
+}
+@media (max-width: 1024px) {
+  .btncontainer {
+    margin: 3.5rem;
+    margin-right: -2rem;
+  }
+}
+@media (max-width: 960px) {
+  .btncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+  }
+  .buttons:not(:last-child) {
+    margin-right: 0.3rem;
+  }
+
+  .buttons {
+    margin: 10px;
+    width: 150px;
+    height: 55px;
+  }
+  .buttons:nth-child(1) {
+    width: 150px;
+    height: 59px;
+  }
+  .buttons:nth-child(2) {
+    width: 143px;
+  }
+  .buttons:nth-child(4) {
+    width: 151px;
+  }
+}
+
+@media (max-width: 360px) {
+  .btncontainer {
+    margin: -1.5rem;
+  }
+}

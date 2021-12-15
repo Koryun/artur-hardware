@@ -1,0 +1,48 @@
+[
+    {
+       
+        "id": 1,
+        "svg": "../../svg/people.svg",
+        "width": "927.338",
+        "height": "405.547",
+        "title": "Requirements analysis and initial research",
+        "description": "Our work begins with a requirements discussion with the customer. Right after the first round of project discussion, we conduct in-depth research of available technologies to find those that could be used to implement the best possible solution. Depending on the nature of the project, we could also conduct ready-made solutions available on the market."
+        
+      
+      },
+      { 
+        
+        "id": "2",
+        "svg": "../svg/conceptDesign.svg",
+        "width": "831.64",
+        "height": "420.75",
+        "title": "Concept design",
+        "description": "Initial documentation preparation and its validation with the customer. Basic prototype technical implementation based on the opensource hardware solutions (Proof of Concept). Prototype confirmation and preparations finalization for the designing stage."
+      },
+      {
+        "id": 3,
+        "svg": "../svg/designingStage.svg",
+        "width": "831.64",
+        "height": "420.75",
+        "title": "Designing stage",
+        "description": "At this stage, we parallel two types of work: technical and product design implementation. We conduct product components research and prepare the initial list of the most feasible ones to pick from. After that, we prepare schematic design, mechanical design, PCB design, and, eventually, the firmware and software design."
+      },
+      {
+        "id": 4,
+      
+        "svg": "../../svg/guyonmask.svg",
+        "width": "808.07",
+        "height": "586.96",
+        "title": "Prototype",
+        "description": "After confirming the final design with the customer, we choose the components supplier company and the product manufacturer. Once done, we order our first batch of components and an initial PCB and mechanical components manufacturing. Once we receive those, we assemble the prototype, inspect it, test, and debug. The last things done at this stage are firmware development, qualification, and environmental testing (final validation)."
+      },
+      {
+        "id": 5,
+        "svg": "../svg/manufacturing.svg",
+        "width": "808.07",
+        "height": "586.96",
+        "title": "Manufacturing",
+        "description": "At this stage, we optimize the product design for the manufacturing to minimize the cost of goods and optimize the quality control processes on the conveyor line. After that, we make the bill of materials (BOM) optimization, final product validation and sending the instructions to the manufacturer. The manufacturer is ready to receive the first mass order, and we’re ready to provide our complete support of the project in the production stage."
+      }
+     
+]

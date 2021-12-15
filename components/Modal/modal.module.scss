@@ -1,0 +1,85 @@
+.customModal {
+  background: #b2dbbf;
+  max-width: 500px;
+  width: 100%;
+}
+
+.customOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.styledModal {
+  position: fixed;
+  background: #0d0d0d;
+  width: 920px;
+  height: 552.5px;
+  padding: 15px;
+  z-index: -1;
+  padding-top: 1rem;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.modalBody {
+  padding-top: 10px;
+  z-index: 1;
+  display: flex;
+}
+
+.portal {
+  display: flex;
+}
+
+@media only screen and (max-width: 960px) {
+  .styledModal {
+    z-index: 1;
+    padding-top: 4rem;
+    max-width: 92vw;
+    height: 620px;
+
+    .close {
+      display: none;
+    }
+  }
+
+  .customOverlay {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1800px) {
+  .styledModal {
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .styledModal {
+    padding-top: 2rem;
+  }
+  .customOverlay {
+    display: flex;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

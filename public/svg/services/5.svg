@@ -1,0 +1,58 @@
+   <svg
+
+              xmlns="http://www.w3.org/2000/svg"
+              width="257"
+              height="281"
+              viewBox="0 0 257 281"
+            >
+              <g
+                id="Group_216"
+                data-name="Group 216"
+                transform="translate(-524 -488)"
+              >
+                <text
+                  id="To_automate_the_estimation_process."
+                  data-name="To automate the estimation process."
+                  transform="translate(524 696)"
+                  fill="#fff"
+                  font-size="24"
+                  font-family="Roboto"
+                >
+                  <tspan x="0" y="25">
+                    Manufacturing
+                  </tspan>
+                </text>
+                <g id="Group_211" data-name="Group 211">
+                  <g
+                    id="Rectangle_659"
+                    data-name="Rectangle 659"
+                    transform="translate(524 488)"
+                    fill="none"
+                    stroke="#28ab5f"
+                    stroke-width="3"
+                  >
+                    <rect width="135" height="135" stroke="none" />
+                    <rect
+                      x="1.5"
+                      y="1.5"
+                      width="132"
+                      height="132"
+                      fill="none"
+                    />
+                  </g>
+                  <text
+                    id="_02"
+                    data-name="02"
+                    transform="translate(548 493)"
+                    fill="#fff"
+                    font-size="150"
+                    font-family="Roboto"
+                    font-weight="500"
+                  >
+                    <tspan x="0" y="157">
+                      05
+                    </tspan>
+                  </text>
+                </g>
+              </g>
+            </svg>

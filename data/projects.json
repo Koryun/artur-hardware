@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "href": "/Military",
+        "category": "Military",
+        "title": "Autonomous system of encrypted communications",
+        "description": "We have developed a highly efficient communication system in accordance with the highest standards of the military-industrial complex. As a result of our work, the customer received three types of devices operating in a single ecosystem: CIPF (Cryptographic Information Security System), IU (Interface Unit), and communication handset. All systems have been integrated into an existing long-range radio station and have been successfully commissioned.",
+        "img": "../images/ball.jpg",
+        "position": "right",
+        "label1": "../svg/partnership.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 2,
+        "category": "Military",
+        "title": "High-precision autonomous navigation system",
+        "description": "A high-precision locating system for closely spaced areas used by the US emergency services.",
+            "img": "../images/ball.jpg",
+        "label1": "../svg/partnership.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 3,
+        "category": "Medical",
+        "title": "Life support data counting and analysis systems ",
+        "description": "Various analysis systems for human life support, including work with temperature, vo2max, gyroscope, and accelerometer sensors data processing.",
+        "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 4,
+        "category": "Medical",
+        "title": "Powered exoskeleton ",
+        "description": "We have designed an Exoskeleton for disabled people with injuries of the musculoskeletal system.",
+        "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 5,
+        "category": "Retail",
+        "title": "Z-light Smart Bedroom Hub",
+        "description": "Faint light to help you sleep and wake up stress-free, with wireless charger and air quality system.",
+            "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"40"
+    },
+    {
+        "id": 6,
+        "category": "Retail",
+        "title": "The Moon - World's First Levitating Camera",
+        "description": "All-in-One Smart Hub, Security Camera, Stable Levitation and 360º Vision, Event Direction Detection.",
+            "img": "../images/ball.jpg",
+        "label1": "../svg/partnership.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 7,
+        "category": "Retail",
+        "title": "IoT systems",
+        "description": "Different commercial and non-commercial IoT systems working with various data types, including temperature, humidity, co2, water leakage, water flow, and other sensors. These works also include complete smart-home solutions.",
+            "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 8,
+        "category": "Industrial",
+        "title": "High-sensitive vibration tracking and analysis system ",
+        "description": "Sophisticated AI system paired with our hardware solutions for condition monitoring (analysis and failure prevention) of high power motors used in oil derricks and other high load businesses in the United States.",
+            "img": "../images/ball.jpg",
+        "label1": "../svg/partnership.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 9,
+        "category": "Industrial",
+        "title": "MPPT system for solar panels ",
+        "description": "Maximum power point tracking system for solar panels efficiency increase.",
+            "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 10,
+        "category": "Private",
+        "title": "Highly-secure USB stick with fingerprint ",
+        "description": "Embedded fingerprint and hardware encryption system for custom USB sticks.",
+            "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 11,
+        "category": "Private",
+        "title": "P2P communication encrypted system ",
+        "description": "Peer-To-Peer encryption mechanism between two smartphones using best-in-class security standards.",
+            "img": "../images/ball.jpg",
+        "label1": "../svg/partnership.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 12,
+        "category": "Other",
+        "title": "Arduino evaluation board significant enhancement ",
+        "description": "We have created a product that allows using ten of the most popular shields of Arduino DUE simultaneously.",
+            "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    },
+    {
+        "id": 13,
+        "category": "Other",
+        "title": "The magnetic levitation analysis system ",
+        "description": "We have implemented a system that allows simulating different magnetic levitation environments and run projections in a lab environment.",
+            "img": "../images/ball.jpg",
+        "label2": "../svg/end-to-end.svg",
+        "width": "171",
+        "height":"30"
+    }
+]

@@ -1,0 +1,163 @@
+.flexContainer {
+  width: 100%;
+  padding: 10px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.span1,
+.span2 {
+  font-family: "Roboto black";
+}
+.section {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 7.8rem;
+  padding-top: 1rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+.description {
+  font-family: "Roboto regular";
+  margin-top: 1rem;
+  width: 85%;
+  padding: 1rem;
+  font-size: 18px;
+  line-height: 2rem;
+}
+.section:nth-child(1) {
+  .title {
+    padding-right: 42rem;
+  }
+}
+.section:nth-child(2) {
+  .span1 {
+    color: #2db46a;
+  }
+}
+.section:nth-child(3) {
+  .span2 {
+    color: #2db46a;
+  }
+  .title {
+    padding-right: 6rem;
+  }
+}
+
+.title {
+  display: inline-block;
+  font-size: 100px;
+  text-transform: uppercase;
+  position: relative;
+  left: 0;
+  margin-left: 0;
+  margin-right: 19rem;
+  padding-top: 0;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+}
+
+.title::before {
+  height: 1px;
+  width: 60%;
+  background: green;
+  left: 0;
+  bottom: -10px;
+}
+
+.title::after {
+  height: 5px;
+  width: 5px;
+  background: green;
+  border-radius: 50%;
+  left: calc(60% - 2px);
+  bottom: -12px;
+}
+
+@media (max-width: 1024px) {
+  .section:nth-child(1) {
+    .title {
+      padding-right: 21rem;
+    }
+  }
+
+  .section:nth-child(3) {
+    .title {
+      padding-right: 0rem;
+    }
+  }
+  .title {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .description {
+    width: 100%;
+  }
+}
+@media (max-width: 960px) {
+  .section {
+    padding: 0rem;
+  }
+  .title {
+    font-size: 50px;
+    right: 0rem;
+    left: 0rem;
+    margin-right: 0rem;
+    padding-top: 3rem;
+  }
+  .section:nth-child(1) {
+    .title {
+      right: 0rem;
+      margin-right: 12rem;
+      padding-right: 0rem;
+    }
+  }
+  .section:nth-child(2) {
+    .span1 {
+      color: #2db46a;
+    }
+    .title {
+      margin-left: 1.5rem;
+      padding-right: 0rem;
+    }
+  }
+  .section:nth-child(3) {
+    .span2 {
+      color: #2db46a;
+    }
+    .title {
+      margin-left: 1.4rem;
+      padding-right: 0;
+    }
+  }
+  .flexContainer {
+    padding: 10px 0px;
+  }
+
+  .description {
+    width: 98%;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .flexContainer {
+    padding: 50px 0px;
+  }
+  .section:nth-child(1) {
+    .title {
+      right: 0rem;
+      margin-right: 11rem;
+      padding-right: 0rem;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+.flexContainer {
+  height: 100vh;
+  width: 100%;
+  padding: 110px 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flexContainer:first-child {
+  margin-right: 20px;
+}
+.backgroundImg {
+  position: absolute;
+}
+
+.firstChild,
+.secondChild {
+  flex: 1;
+}
+
+.secondChild {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.description {
+  font-family: "Roboto regular";
+  margin-bottom: 5rem;
+  font-size: 18px;
+  line-height: 2rem;
+  width: 70%;
+}
+.title {
+  font-family: "Roboto black";
+  font-size: 100px;
+  transform: rotate(270deg);
+  width: 58px;
+  height: 55px;
+  position: relative;
+  top: 10rem;
+  right: 5rem;
+  text-transform: uppercase;
+}
+// @media (max-height: 1042px) and (max-width: 768px) {
+//   .flexContainer {
+//     height: 50vh;
+//   }
+// }
+
+@media (max-width: 1024px) {
+  .description {
+    width: 100%;
+  }
+  .flexContainer {
+    height: 60vh;
+  }
+}
+@media (max-width: 960px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .firstChild {
+    height: 150px;
+  }
+  .secondChild {
+    align-items: flex-start;
+  }
+  .description {
+    width: 100%;
+    font-size: 16px;
+    font-family: "Roboto regular";
+  }
+  .backgroundImg {
+    width: 330px;
+    margin-top: 15rem;
+    margin-right: 2rem;
+  }
+  .title {
+    font-size: 50px;
+    height: 55px;
+    position: relative;
+    top: 19rem;
+    left: -1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .flexContainer {
+    height: 177vh;
+  }
+  .description {
+    width: 100%;
+    position: relative;
+    right: 0rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .flexContainer {
+    height: 230vh;
+  }
+}

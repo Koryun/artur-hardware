@@ -1,0 +1,171 @@
+.container {
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  margin-right: 0;
+}
+
+.span1 {
+  font-family: "Roboto medium";
+  font-size: 150px;
+  color: #2db46a;
+  text-transform: uppercase;
+}
+
+.span2 {
+  font-family: "Roboto regular";
+  font-size: 200px;
+  mix-blend-mode: hard-light;
+  opacity: 40%;
+  text-transform: uppercase;
+}
+.title {
+  margin-right: 5rem;
+  position: relative;
+  right: 2.5rem;
+  font-weight: 800;
+  padding-left: 3rem;
+  bottom: 8rem;
+  line-height: 8rem;
+}
+
+.li {
+  list-style: none;
+}
+.overlay {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-bottom: 10.5rem;
+}
+.img1 {
+  position: absolute;
+  padding-bottom: 3rem;
+}
+
+.content {
+  font-family: "Roboto regular";
+  display: flex;
+  position: relative;
+  left: 2.5rem;
+  font-size: 18px;
+  padding-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  line-height: 2rem;
+}
+
+.li {
+  list-style: none;
+}
+@media (max-width: 1280px) {
+  .container {
+    justify-content: flex-start;
+    height: 100vh;
+    min-width: max-content;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-right: 0;
+  }
+  .img1 {
+    width: 300px;
+    position: absolute;
+    opacity: 15%;
+    left: 50px;
+    display: flex;
+  }
+  .span1,
+  .span2 {
+    font-size: 150px;
+  }
+
+  .title {
+    line-height: 8rem;
+    padding-left: 0.5rem;
+    left: 0.8rem;
+    bottom: 0rem;
+  }
+
+  .content {
+    display: flex;
+    width: 86%;
+    left: 0.5rem;
+    font-size: 16px;
+    padding-top: 1.5rem;
+    margin-left: 0.6rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    justify-content: flex-start;
+    height: 165vh;
+    min-width: min-content;
+  }
+  .main {
+    flex-direction: column;
+    padding: 0rem;
+    margin-right: 0;
+  }
+  .img1 {
+    width: 300px;
+    position: absolute;
+    opacity: 15%;
+    left: 70px;
+  }
+  .span1,
+  .span2 {
+    font-size: 45px;
+  }
+
+  .title {
+    line-height: 3rem;
+    padding-left: 0.5rem;
+    left: 0.8rem;
+    bottom: 0rem;
+  }
+
+  .content {
+    width: 86%;
+    left: 0.5rem;
+    font-size: 16px;
+    padding-top: 1.5rem;
+    margin-left: 0.6rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    height: 180vh;
+  }
+
+  .img1 {
+    left: 48px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    height: 250vh;
+  }
+}

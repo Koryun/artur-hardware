@@ -1,0 +1,22 @@
+ [
+  "Embedded Devices:",
+
+  "Bare metal and embedded OS, e.g. Linux, Android, Free RTOS, MQX RTOS, QNX, OpenEmbedded.",
+  "Custom bootloaders and board support packages – drivers and API",
+
+  "High Performance:",
+
+  "Real-time execution over multiple processors",
+  "Multi-threaded / multi-processor systems",
+  "Custom protocols (parallel / serial)",
+  "Military/aerospace data transfer protocols (S1-FL-Bi, Manchester)",
+  "Complex architecture design using microcontrollers as co-processors for ARM based processors.",
+  "Low-latency designs for video (including streaming with H.264) and other quick-response applications",
+  "Image recognition systems.",
+
+  "High Reliabilty",
+
+  "Distributed monitoring and control firmware for large-scale distributed systems",
+  "Critical applications in the medical, defense, and aerospace industries."
+ ]
+

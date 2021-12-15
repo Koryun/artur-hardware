@@ -1,0 +1,84 @@
+.footer {
+  margin: 3rem;
+}
+
+.firstChild {
+  margin-left: 9rem;
+}
+
+.secondChild {
+  margin-right: 9rem;
+  margin-top: -5rem;
+  text-align: right;
+  position: relative;
+  left: 0;
+  right: 0;
+
+  .section1,
+  .section2,
+  .section3 {
+    margin-top: 1rem;
+  }
+}
+.onTop {
+  position: relative;
+  bottom: 2rem;
+  left: 2rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.topP {
+  text-transform: uppercase;
+  margin-right: 2rem;
+}
+
+.copyRight {
+  position: relative;
+  bottom: 3rem;
+  align-items: center;
+  text-align: center;
+}
+.a,
+.mail {
+  text-decoration: none;
+}
+
+//tablet
+@media (max-width: 998px) {
+  .firstChild {
+    margin-left: 2rem;
+  }
+  .secondChild {
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+}
+//phone
+@media (max-width: 512px) {
+  .firstChild {
+    margin-left: -1rem;
+  }
+  .secondChild {
+    margin-left: 2rem;
+    left: 2rem;
+  }
+  .logo {
+    width: 165px;
+    height: 30px;
+  }
+  .topP {
+    margin-right: 1rem;
+  }
+}
+
+// //smaller phone
+@media (max-width: 360px) {
+  .secondChild {
+    margin-left: 0;
+  }
+}

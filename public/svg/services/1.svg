@@ -1,0 +1,54 @@
+ <svg
+       
+            xmlns="http://www.w3.org/2000/svg"
+            width="257"
+            height="281"
+            viewBox="0 0 257 281" >
+            <g
+              id="Group_217"
+              data-name="Group 217"
+              transform="translate(-64 -488)"
+            >
+              <text
+                id="Requirements_analysis_and_initial_research"
+                data-name="Requirements analysis and initial research"
+                transform="translate(64 696)"
+                fill="#fff"
+                font-size="24"
+                font-family="Roboto"
+              >
+                <tspan x="0" y="25">
+                  Requirements analysis
+                </tspan>
+                <tspan x="0" y="59">
+                  and initial research
+                </tspan>
+              </text>
+              <g id="Group_212" data-name="Group 212">
+                <g
+                  id="Rectangle_658"
+                  data-name="Rectangle 658"
+                  transform="translate(64 488)"
+                  fill="none"
+                  stroke="#28ab5f"
+                  stroke-width="3"
+                >
+                  <rect width="135" height="135" stroke="none" />
+                  <rect x="1.5" y="1.5" width="132" height="132" fill="none" />
+                </g>
+                <text
+                  id="_01"
+                  data-name="01"
+                  transform="translate(88 493)"
+                  fill="#fff"
+                  font-size="150"
+                  font-family="Roboto-Medium, Roboto"
+                  font-weight="500"
+                >
+                  <tspan x="0" y="157">
+                    01
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </svg>
